@@ -1,0 +1,142 @@
+/* ========================
+   Global Styles
+======================== */
+body {
+  font-family: 'Tahoma', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Tahoma', sans-serif;
+}
+
+/* ========================
+   Navbar
+======================== */
+.navbar {
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+}
+
+.nav-link {
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.nav-link:hover {
+  color: #0d6efd !important;
+}
+
+/* ========================
+   Hero Section
+======================== */
+#home {
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  color: #fff;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#home .btn-primary {
+  background-color: #ffc107;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+#home .btn-primary:hover {
+  background-color: #e0a800;
+  transform: translateY(-3px);
+}
+
+/* ========================
+   About Section
+======================== */
+#about {
+  background: #f8f9fa;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#about h2 {
+  color: #0d6efd;
+}
+
+/* ========================
+   Services Section
+======================== */
+#services .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#services .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+#services h5 {
+  color: #0d6efd;
+}
+
+/* ========================
+   Contact Section
+======================== */
+#contact {
+  background: #fff;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#contact .btn-dark {
+  background-color: #0d6efd;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+#contact .btn-dark:hover {
+  background-color: #6610f2;
+  transform: translateY(-3px);
+}
+
+/* ========================
+   Footer
+======================== */
+footer {
+  background: #212529;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+/* ========================
+   Fade-in Animation
+======================== */
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 1s ease;
+}
+
+section {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+/* ========================
+   Responsive
+======================== */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .nav-link {
+    margin: 0.5rem 0;
+  }
+}
